@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    body{
+        background-color: navy;
+    }
+#main{
+    margin: 100px 400px;
+    text-align: center;
+    padding: 50px 30px;
+    background-color: gray;
+    box-shadow: 10px 10px 10px white;
+}
+li{
+list-style-type:decimal;
+text-align: left;
+margin: 0px 60px;
+}
+.libtn{
+    margin: 10px;
+    background-color: navy;
+    color: white;
+    border: none;
+    padding: 0px 20px;
+}
+</style>
+</head>
+<body>
+    <div id="main">
+        <h1><u>TODO LIST</u> </h1>
+    <div>
+        <input type="text" id="todo-item">
+        <button onclick="addItem()">Add Item</button>
+        <button onclick="refresh()">Refresh</button>
+    </div>    
+    <div >
+        <ul id="list">
+
+        </ul>
+    </div>
+</div>
+    <script src="app.js"></script>
+</body>
+
+</html>
